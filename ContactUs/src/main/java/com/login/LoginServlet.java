@@ -1,5 +1,4 @@
 package com.login;
-
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -8,7 +7,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -20,14 +18,13 @@ public class LoginServlet extends HttpServlet {
 		LoginDAO newLoginDAO = new LoginDAO();
 		if(newLoginDAO.isValidUser(newLogin)) {
 			HttpSession session = request.getSession();
-            session.setAttribute("admin", userName);
-            session.setAttribute("pass", userPass);
+            		session.setAttribute("admin", userName);
+            		session.setAttribute("pass", userPass);
 			response.sendRedirect("dashboard");
 		}
 		else {
 			RequestDispatcher reqDispatcher = request.getRequestDispatcher("login.jsp");
 			reqDispatcher.forward(request, response);
 		}
-		
 	}
 }
