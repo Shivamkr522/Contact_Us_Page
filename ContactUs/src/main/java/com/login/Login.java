@@ -1,5 +1,4 @@
 package com.login;
-
 public class Login {
 	private String uname;
 	private String upass;
@@ -20,5 +19,4 @@ public class Login {
 	public void setUpass(String upass) {
 		this.upass = upass;
 	}
-	
 }
