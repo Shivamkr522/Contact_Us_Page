@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*body{
+	text-align: center;
+}*/
+
+#main-form{
+	align-content: center;
+	padding: 20rem 30rem;
+}
+
+#head{
+	align-content: center;
+}
+
+#name{
+	font-size: 1.5rem;
+	padding: 2em 4em;
+}
+
+#email{
+	font-size: 1.5rem;
+	padding: 2em 4em;
+}
+
+#message{
+	font-size: 1.5rem;
+	padding: 2em 4em;
+}
+
+#fullname{
+	size: 1.25rem;
+}
+
+#email-block{
+	size: 1.25rem;
+}
+
+#message-block{
+	size: 1.25rem;
+}
+
+/*#submit-button{
+	padding: 2rem 4rem;
+}*/
+
+#submit{
+	font-size:1rem;
+	padding: 1rem 2rem;	
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+
+h2{
+	text-align: center;
+	color: #C58940;
+}
+
+.label-data{
+	color: #C58940;
+}
+
+input{
+	border-top-style: hidden;
+ 	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: groove;
+}
+
+form{
+	text-align: center;
+	padding: 5rem 0;
+}
+
+#login-box{
+	display: flex;
+	flex-direction: column;
+	background-color: #FAEAB1;
+	margin: 10rem 30rem;
+}
+

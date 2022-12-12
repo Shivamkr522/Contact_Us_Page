@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+h2{
+	text-align: center;
+	padding: 10rem;
+}
+
+form{
+	text-align: center;
+}
+
+#login-box{
+	display: flex;
+	flex-direction: column;
+	padding: 10rem;
+	background-color: #FAEAB1;
+	margin: 10rem;
+}
+

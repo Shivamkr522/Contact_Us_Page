@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#main-form{
+	display: flex;
+	flex-direction: column;
+	background-color: #F3CCFF;
+	margin: 10rem 40rem;
+	text-align: center;
+}
+
+#name{
+	margin: 0 5rem;
+}
+
+#password{
+	margin: 0 5rem;
+}

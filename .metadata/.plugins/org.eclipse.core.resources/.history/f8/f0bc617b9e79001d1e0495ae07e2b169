@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+ background-color: pink;
+}
+h3{ 
+text-align: center;
+padding-top: 30px;
+padding-bottom: 60px;
+}
+
+form{
+display: block;
+flex-direction: column;
+text-align: center;
+background-color: beige;
+padding: 5rem 0;
+}
+
+#label{
+
+display: flex;
+	flex-direction: column;
+
+}*/
+
+p{
+	margin-top: .4rem;
+	opacity: .7;
+}
+
+#contact-form{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 5rem 20rem 10rem;
+}

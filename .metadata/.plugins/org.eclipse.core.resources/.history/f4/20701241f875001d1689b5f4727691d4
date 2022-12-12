@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<form action="">
+			<div>
+				<label>Full Name</label>
+				<input type="text" id="fullName" name="fullName" placeholder="Enter the Name">
+			</div>
+			<div>
+				<label>Email</label>
+				<input type="email" id="email" name="email" placeholder="Enter the email address">
+			</div>
+			<div>
+				<label>Message</label>
+				<textarea rows="150" cols="50" placeholder="Enter the message"></textarea>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

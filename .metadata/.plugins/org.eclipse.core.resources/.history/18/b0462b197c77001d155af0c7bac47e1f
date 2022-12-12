@@ -1,0 +1,10 @@
+package com.login;
+import java.util.*;
+
+import com.contactus.RequestDAO;
+
+public class DashboardServlet {
+	List<String> contactUsFormData = new ArrayList<>();
+	contactUsFormData = RequestDAO.fetchData();
+	
+}

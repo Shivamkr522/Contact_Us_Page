@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+ <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+	<div id="login-box">
+		<h2>Login</h2>
+		<form action="login" method="post">
+			<label for="user-name">Username</label>
+			<br>
+			<input type="text" name="username" id="user" placeholder="Enter Username">
+			<br>
+			<label for="password">Password</label>
+			<br>
+			<input type="password" name="password" id="pass" placeholder="Enter Password">
+			<br>
+			<button>Submit</button>
+		</form>
+	</div>
+</body>
+</html>

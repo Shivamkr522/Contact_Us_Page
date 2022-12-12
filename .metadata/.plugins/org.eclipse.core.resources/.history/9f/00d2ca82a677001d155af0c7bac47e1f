@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"  import="java.util.*, com.contactus.Request"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		session.getAttribute("ContactUsData");
+	%>
+	<table>
+		<thead>
+			<tr>
+				<td>Name</td>
+				<td>Email</td>
+				<td>Message</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<c:forEach var="sendData" items = "${ContactUsData}"  >
+					${sendData.name} <br/>
+					${sendData.email} <br/>
+					${sendData.message} <br/>
+				</c:forEach>	
+			</tr>
+		</tbody>
+	
+	</table>
+	
+</body>
+</html>

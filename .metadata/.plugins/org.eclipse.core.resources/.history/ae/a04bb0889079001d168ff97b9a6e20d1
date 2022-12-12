@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+thead{
+	background-color: #D6EEEE;
+}
+
+tr {
+	border-bottom: 1px solid #ddd;
+}
+
+tr:hover{
+	background-color: #D6EEEE;
+}
+
+h1{
+	text-align: center;
+	color: #181D31;
+}
+
+button:hover{
+	background-color: #D6EEEE;
+}
+
+#table-content{
+	display: flex;
+	flex-direction: column;
+	margin: 20rem 30rem;
+}
+

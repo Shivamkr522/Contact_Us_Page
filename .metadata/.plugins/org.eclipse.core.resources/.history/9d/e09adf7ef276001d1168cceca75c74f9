@@ -1,0 +1,7 @@
+package com.contactus;
+
+public class RequestDAO {
+	public void addData(Request req) {
+		
+	}
+}

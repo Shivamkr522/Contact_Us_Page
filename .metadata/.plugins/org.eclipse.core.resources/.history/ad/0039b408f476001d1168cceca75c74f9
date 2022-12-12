@@ -1,0 +1,26 @@
+package com.contactus;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/contactus")
+public class ContactUsServlet extends HttpServlet {
+	
+	private static final long serialVersionUID = 1L;
+
+	public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
+		String name=req.getParameter("fullName").toString();
+		String email=req.getParameter("email").toString();
+		String message =req.getParameter("message").toString();
+		System.out.println(name+" "+email+" "+message);
+//		Request request = new Request(name,email,message);
+//		RequestDAO requestdao = new RequestDAO();
+//		requestdao.addData(request);
+	}
+	
+}

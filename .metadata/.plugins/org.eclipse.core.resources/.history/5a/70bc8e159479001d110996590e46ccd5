@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+#main-form{
+	display: flex;
+	flex-direction: column;
+}

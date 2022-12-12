@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+p{
+	opacity: .5;
+}
+
+#main-form{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 5rem 20rem 10rem;
+}
+
+#head{
+	font-size: 2rem;
+}
+
+#name{
+	margin: 2rem 20rem 4rem;
+	text-align: left;
+}
+
+#email{
+	margin: 0 20rem 4rem;
+	text-align: left;
+}
+
+#message{
+	margin: 0 20rem 2rem;
+	text-align: left;
+}
+
+#submit-button{
+	margin: 0 20rem 2rem;
+	
+}
+
+#submit{
+	padding: 1.5rem 2rem;
+	font-size: 1rem;
+	background-color: white;
+  	color: black;
+  	border: 2px solid #555555;
+}
+
+#submit:hover{
+	background-color: #555555;
+  	color: white;
+}

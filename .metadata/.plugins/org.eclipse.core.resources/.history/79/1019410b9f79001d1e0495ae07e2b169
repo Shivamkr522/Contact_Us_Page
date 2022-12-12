@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+p{
+	margin-top: .4rem;
+	opacity: .7;
+}
+
+#contactform{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 5rem 20rem 10rem;
+}
+

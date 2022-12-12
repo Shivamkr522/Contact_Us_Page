@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#main-form{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10rem 10rem;
+}
+
+#name{
+	margin: 2rem 30rem 4rem;
+	text-align: left;
+}
+
+#email{
+	margin: 0 30rem 4rem;
+	text-align: left;
+}
+
+#message{
+	margin: 0 30rem 2rem;
+	text-align: left;
+}
+
+#submit-button{
+	margin: 0 30rem 2rem;
+	
+}
+
+#submit{
+	padding: 1.5rem 2rem;
+	font-size: 1rem;
+}

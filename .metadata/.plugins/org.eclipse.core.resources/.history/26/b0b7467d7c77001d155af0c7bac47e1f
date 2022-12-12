@@ -1,0 +1,50 @@
+package com.contactus;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
+public class RequestDAO {
+	public static final String DATABASE = "ContactUsDB";
+    public static final String HOST_NAME = "localhost";
+    public static final String HOST = "5432";
+    public static final String USER = "postgres";
+    public static final String PASSWORD = "postgres";
+
+	public void addData(Request req) {
+		System.out.println(req.getName());
+//		try {
+//			Class.forName("org.postgresql.Driver");
+//			Connection con = DriverManager.getConnection("jdbc:postgresql://"+HOST_NAME+":"+HOST+"/"+DATABASE,USER,PASSWORD);
+//			String query = "Insert Into UserDetails values(?,?,?)";
+//			PreparedStatement prep = con.prepareStatement(query);
+//			prep.setString(1, req.getName());
+//			prep.setString(2, req.getEmail());
+//			prep.setString(3, req.getMessage());
+//			prep.executeQuery();
+//			con.close();
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//        
+	}
+	
+	public static List<String> fetchData() {
+		List<String> lst = new ArrayList<>();
+		try {
+			Class.forName("org.postgresql.Driver");
+			Connection con = DriverManager.getConnection("jdbc:postgresql://"+HOST_NAME+":"+HOST+"/"+DATABASE,USER,PASSWORD);
+			String query ="Select * from UserDetails";
+			Statement st =con.createStatement();
+			ResultSet rt = st.executeQuery(query);
+			while(rt.next()) {
+				lst.add(rt.getString("uname")+" "+rt.getString("uemail")+" "+rt.getString("umessage"));
+			}
+			return lst;
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
+		return null;
+	}
+}

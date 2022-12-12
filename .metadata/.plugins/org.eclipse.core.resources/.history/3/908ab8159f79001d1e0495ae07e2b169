@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+p{
+	margin-top: .4rem;
+	opacity: .7;
+}
+
+#contactform{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 5rem 20rem 10rem;
+}
+
+#name{
+	margin: 2rem 15rem 4rem;
+	text-align: left;
+}
+
+#email{
+	margin: 0 15rem 4rem;
+	text-align: left;
+}
+
+#message{
+	margin: 0 15rem 2rem;
+	text-align: left;
+}
+
+#submit-button{
+	margin: 0 15rem 2rem;
+}

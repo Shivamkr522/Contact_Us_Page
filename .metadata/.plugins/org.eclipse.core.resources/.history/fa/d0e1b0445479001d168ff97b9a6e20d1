@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#login-box{
+	align-content: left;
+	padding: 13rem 50rem 10rem 5rem;
+	display: flex;
+	
+}

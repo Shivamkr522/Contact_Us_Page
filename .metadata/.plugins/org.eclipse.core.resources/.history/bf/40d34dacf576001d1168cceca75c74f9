@@ -1,0 +1,29 @@
+package com.contactus;
+
+import java.sql.*;
+
+public class RequestDAO {
+	public static final String DATABASE = "ContactUsDB";
+    public static final String HOST_NAME = "localhost";
+    public static final String HOST = "5432";
+    public static final String USER = "postgres";
+    public static final String PASSWORD = "postgres";
+
+	public void addData(Request req) {
+		System.out.println(req.getName()+" "+req.getEmail()+" "+req.getMessage());
+//		String query = "Insert Into UserDetails values(?,?,?)";
+//		try {
+//			Class.forName("org.postgresql.Driver");
+//			Connection con = DriverManager.getConnection("jdbc:postgresql://"+HOST_NAME+":"+HOST+"/"+DATABASE,USER,PASSWORD);
+//			PreparedStatement prep = con.prepareStatement(query);
+//			prep.setString(1, req.getName());
+//			prep.setString(2, req.getEmail());
+//			prep.setString(3, req.getMessage());
+//			prep.executeUpdate();
+//			con.close();
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+        
+	}
+}

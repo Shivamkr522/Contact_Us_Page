@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#main-form{
+	display: flex;
+	flex-direction: column;
+	background-color: #FAEAB1;
+	margin: 10rem 30rem;
+}

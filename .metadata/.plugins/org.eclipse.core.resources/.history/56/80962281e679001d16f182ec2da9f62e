@@ -1,0 +1,5 @@
+package com.logout;
+
+public class LogoutServlet {
+
+}

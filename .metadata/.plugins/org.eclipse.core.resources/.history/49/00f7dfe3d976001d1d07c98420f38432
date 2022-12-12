@@ -1,0 +1,16 @@
+package com.contactus;
+
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class ContactUsServlet extends HttpServlet {
+	
+	public void doPost(HttpServletRequest req, HttpServletResponse res) {
+		PrintWriter out = new PrintWriter(System.out);
+		out.println("Hello World");
+	}
+	
+}

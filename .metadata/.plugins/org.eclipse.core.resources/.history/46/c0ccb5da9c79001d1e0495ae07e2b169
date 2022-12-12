@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact Us</title>
+<link rel="stylesheet" type="text/css" href="contactus.css">
+</head>
+<body>
+<h3>Contact Us</h3>
+<div id="contactform">	
+	<form  action="contactus" method="post">
+		<label id="label">Name:</label><br><input type="text" name="name"><br><br>
+		<label id="label">Email:</label><br><input type="email" name="email" ><br><br>
+		<label id="label">Message:</label><br><textarea  name="message"></textarea><br><br>
+		<input type="Submit">
+	</form>
+</div>
+</body>
+</html>

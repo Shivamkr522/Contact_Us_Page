@@ -1,0 +1,9 @@
+package com.contactus;
+
+public class Request {
+	String name;
+	String email;
+	String message;
+	
+	
+}

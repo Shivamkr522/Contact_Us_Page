@@ -1,0 +1,12 @@
+package com.login;
+import java.util.*;
+
+import com.contactus.RequestDAO;
+
+public class DashboardServlet {
+	public void readRedirect() {
+		List<String> contactUsUserData = new ArrayList<>();
+		
+	}
+	
+}

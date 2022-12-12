@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+#table{
+	display: flex;
+	flex-direction: column;
+	margin: 20rem 30rem;
+}

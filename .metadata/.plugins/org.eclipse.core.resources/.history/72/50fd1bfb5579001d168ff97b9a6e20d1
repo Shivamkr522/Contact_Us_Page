@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+	background-color: #FAEAB1;
+}
+
+h2{
+	text-align: center;
+	color: #C58940;
+}
+
+form{
+	text-align: center;
+	padding: 5rem 0;
+}
+
+#login-box{
+	display: flex;
+	flex-direction: column;
+	
+	margin: 10rem 20rem;
+}
+
