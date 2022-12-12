@@ -1,5 +1,4 @@
 package com.contactus;
-
 public class Request {
 	private String name;
 	private String email;
@@ -7,9 +6,7 @@ public class Request {
 	private int id;
 	private String status;
 	private String time;
-	public Request() {
-		
-	}
+	public Request() {}
 	public Request(String name, String email, String message) {
 		super();
 		this.name = name;
@@ -52,5 +49,4 @@ public class Request {
 	public void setTime(String time) {
 		this.time = time;
 	}
-	
 }
