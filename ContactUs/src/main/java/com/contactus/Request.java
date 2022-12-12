@@ -7,7 +7,6 @@ public class Request {
 	private int id;
 	private String status;
 	private String time;
-	
 	public Request() {
 		
 	}
